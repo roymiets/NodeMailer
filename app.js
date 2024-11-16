@@ -7,13 +7,13 @@ const transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'rkabhishek2000@gmail.com',
-        pass: 'pmso evhq ynjx gwpn'
+        user: 'emil',
+        pass: 'password'
     }
 });
 const sendEmail = (to, subject, text) => {
     const mailOptions = {
-        from: 'rkabhishek2000@gmail.com',
+        from: 'email',
         to: to,
         subject: subject,
         text: text
